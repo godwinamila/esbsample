@@ -9,8 +9,8 @@
   <name>MavenParentProject</name>
   <description>MavenParentProject</description>
   <modules>
-    <module>esb-config-project</module>
-    <module>car-project</module>
+    <!--module>esb-config-project</module>
+    <module>car-project</module-->
   </modules>
   <build>
     <plugins>
