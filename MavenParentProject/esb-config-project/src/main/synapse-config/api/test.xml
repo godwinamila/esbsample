@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <api context="/test" name="test" xmlns="http://ws.apache.org/ns/synapse">
     <resource methods="GET">
-        <inSequence/>
+        <inSequence>
+            <property description="Test" name="Test" scope="default" type="STRING" value="value"/>
+        </inSequence>
         <outSequence/>
         <faultSequence/>
     </resource>
